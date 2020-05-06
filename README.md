@@ -40,7 +40,7 @@ The folder `.\OtherMethods` contains three different path planning methods: `A*`
     Individual.cs
 ````
 ### Testing
-The folder `.\Testing` contains some function for testing the algorithms. First, the `TestACO.cs` have the function that comprobe the functionability of ACOv0 alone.
+The folder `.\Testing` contains some functions for testing the algorithms. First, the `TestACO.cs` have the function that comprobe the functionability of ACOv0 alone.
 
 ```
 \Testing
