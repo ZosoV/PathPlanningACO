@@ -181,8 +181,9 @@ namespace PathPlanningACO.ACO
                 //Init pheromone minimum amount
                 env.InitPheromones(tau_0);
             }
-            //Variable to control the evaporation
+            //Variables  to control the evaporation
             bool almost_one_route = false;
+            bool several_stucks = false;
 
             //Variable to control the convergence
             bool converge = false;
@@ -215,16 +216,23 @@ namespace PathPlanningACO.ACO
                     {
                         //Control Testing Variables
                         stuck_roads++;
+
+                        //Several stucks
+                        if( stuck_roads % 10 == 0)
+                        {
+                            several_stucks = true;
+                        }
                     }
                 }
 
                 env.ResetNodes();
 
                 //If at least one ant found a route the evaporation step occurs
-                if (almost_one_route)
+                if (almost_one_route || several_stucks)
                 {
                     Evaporation(ref env);
                     almost_one_route = false;
+                    several_stucks = false;
                 }
 
                 //If a percentage of the ants follow the same path, the convergence variable will be true
