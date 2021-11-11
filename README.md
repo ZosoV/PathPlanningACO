@@ -1,5 +1,5 @@
 # PathPlanningACO
-This project shows the design of a path planning algorithm based on the Ant Colony Optimization (ACO) algorithm. The project is composed of several folders and scripts where we can find some ACO versions and other path planning methods. The information of this project is described in more detail in the following link: [Blog](
+This project shows the design of a path planning algorithm based on the Ant Colony Optimization (ACO) algorithm. The project is composed of several folders and scripts where we can find some ACO versions and other path planning methods. The information of this project is described in more detail in the following link: [The Blog will come soon]()
 
 ## Objective
 
