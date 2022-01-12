@@ -2,6 +2,9 @@
 This project shows the design of a path planning algorithm based on the Ant Colony Optimization (ACO) algorithm. The project is composed of several folders and scripts where we can find some ACO versions and other path planning methods. The information of this project is described in more detail in the following link: [The Blog will come soon]()
 
 Note: To review an extended and updated version of this work explore the following repository [aco_random_walk](https://github.com/ZosoV/aco_random_walk).
+
+Conference Article LACCI 2019: [https://ieeexplore.ieee.org/document/9037049](https://ieeexplore.ieee.org/document/9037049)
+
 ## Objective
 
 Find a feasible path from an initial to a final node in a three-dimensional terrain (represented with graph) using the Ant Colony Optimization algorithm.
